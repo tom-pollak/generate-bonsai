@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: hsl(0, 0%, 96%);
+}
+
+.canvas {
+  width: 75vmin;
+  height: 75vmin;
+  background: hsl(0, 0%, 100%);
+}
+
+button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 1.75rem;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  -mox-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
